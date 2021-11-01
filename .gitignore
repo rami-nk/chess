@@ -1,0 +1,8 @@
+# ignore out folder
+/out
+
+# ignore todos.txt
+/src/todos.txt
+
+#ignore Test.java
+/src/Test.java
