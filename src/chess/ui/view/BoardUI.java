@@ -53,7 +53,7 @@ public class BoardUI {
                 boardPanel.add(grid[row][column]);
 
                 if (pieceType != PieceType.NONE) {
-                    ImageIcon icon = new ImageIcon("src/chess/ui/pieces/" + getPieceType(pieceType) + ".png");
+                    ImageIcon icon = new ImageIcon("src/assets/pieces/" + getPieceType(pieceType) + ".png");
                     JLabel label = new JLabel(icon/*, SwingConstants.CENTER*/);
                     grid[row][column].add(label);
                 }
